@@ -15,6 +15,7 @@ html {
 /* Navbar Styling Goes Here  */
 nav {
     background: white;
+    transition: all .6s ease-in-out;
 }
 
 nav .navbar-brand {
@@ -24,7 +25,6 @@ nav .navbar-brand {
 
 nav .container .collapse ul li a {
     color: black;
-    font-size: 1.25rem;
 }
 
 nav .container .collapse .navbar-nav .nav-item {
