@@ -13,7 +13,42 @@ html {
 
 
 /* Navbar Styling Goes Here  */
+nav {
+    background: white;
+}
 
+nav .navbar-brand {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+nav .container .collapse ul li a {
+    color: black;
+    font-size: 1.25rem;
+}
+
+nav .container .collapse .navbar-nav .nav-item {
+    position: relative;
+}
+
+nav .container .collapse .navbar-nav .nav-item .nav-link.active {
+    color: #007bff;
+}
+
+nav .container .collapse .navbar-nav .nav-item .nav-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #007bff;
+    transition: all .2s ease-in-out;
+}
+
+nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
 /* Navbar Styling Ends Here  */
 
 
@@ -25,7 +60,6 @@ html {
 }
 
 #hero .container .row .col-md-12 .carousel-inner .carousel-item .carousel-caption-text {
-    background: red;
     position: relative;
 }
 
@@ -34,7 +68,12 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: clamp(2.5rem, 100vw, 5.5rem);
+}
+
+.carousel-control-prev .bi-arrow-left-circle, .carousel-control-next .bi-arrow-right-circle {
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 768px) {
