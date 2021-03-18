@@ -9,9 +9,9 @@ window.onscroll = function() {
 function revealOnScroll() {
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop < 100) {
         navbar.style.padding = "0";
-        navbar.style.borderBottom = "2px solid #fff";
+        navbar.style.borderBottom = "none";
       } else {
         navbar.style.padding = "5px";
-        navbar.style.borderBottom = "2px solid #007bff";
+        navbar.style.borderBottom = "3px solid #007bff";
       }
 }

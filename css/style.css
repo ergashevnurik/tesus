@@ -15,7 +15,7 @@ html {
 /* Navbar Styling Goes Here  */
 nav {
     background: white;
-    transition: all .6s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 nav .navbar-brand {
