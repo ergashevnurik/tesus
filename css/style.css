@@ -18,6 +18,14 @@ nav {
     transition: all .2s ease-in-out;
 }
 
+nav .container {
+    padding: 15px!important;
+}
+
+nav .container .navbar-toggler .bi {
+    font-size: 2.5rem;
+}
+
 nav .navbar-brand {
     font-weight: 800;
     font-size: 2.5rem;
