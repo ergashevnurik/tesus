@@ -185,10 +185,11 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 /* Footer Styling Goes Here */
 #footer {
+    padding-bottom: 50px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 20px;
+    padding-top: 50px;
     background: #2c2c2c;
 }
 
