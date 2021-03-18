@@ -99,8 +99,15 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 #cards .container .row .cards_column {
     height: 350px;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 10%), 0 20px 20px 0 rgb(0 0 0 / 20%);
     border-radius: 15px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+#cards .container .row .cards_column:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 30%);
 }
 /* Card Section Ends Here */
 
