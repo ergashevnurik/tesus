@@ -266,6 +266,11 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 #footer .container .row .col-md-3 div .footer_social_media ul li a {
     font-size: 2rem;
+    transition: all .3s ease-in-out;
+}
+
+#footer .container .row .col-md-3 div .footer_social_media ul li a:hover {
+    color: #fff;
 }
 
 #footer .container .row .footer_all_rights {
