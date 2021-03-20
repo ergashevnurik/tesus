@@ -14,7 +14,6 @@ html {
 
 /* Navbar Styling Goes Here  */
 nav {
-    background: white;
     transition: all .2s ease-in-out;
 }
 
@@ -68,6 +67,27 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+#hero .container .row .col-md-3 {
+    text-align: center;
+    color: white;
+}
+
+#hero .container .row .col-md-3 img {
+    width: 100px;
+    height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    #hero {
+        min-height: 150vh;
+    }
+
+    #hero .container .row .col-md-3 img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 #hero .container {
