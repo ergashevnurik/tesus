@@ -112,6 +112,10 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     color: #7b7d81;
 }
 
+#hero .container .row.hero__bottom {
+    padding: 10px;
+}
+
 #hero .container .row .col-md-3 img {
     width: 100px;
     height: 90px;
