@@ -291,6 +291,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     background: #007bff;
     border: 3px solid #007bff;
     color: white;
+    box-shadow: 0 4px 4px 0 #007bff, 0 8px 8px 0 #007bff;
 }
 
 @media screen and (max-width: 768px) {
