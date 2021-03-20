@@ -33,9 +33,15 @@ html {
     display: block;
 }
 
-#right_fixed_social_media .container__right_social_media .container__right_social_media_d-block i {
-    color: white;
-    font-size: 1.5rem;;
+#right_fixed_social_media .container__right_social_media .container__right_social_media_d-block a i {
+    color: #7b7d81;
+    transition: all .3s ease-in-out;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#right_fixed_social_media .container__right_social_media .container__right_social_media_d-block a i:hover {
+    color: #fff;
 }
 /* Social Media on the right Side Ends Here */
 
@@ -103,7 +109,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 #hero .container .row .col-md-3 {
     text-align: center;
-    color: white;
+    color: #7b7d81;
 }
 
 #hero .container .row .col-md-3 img {
