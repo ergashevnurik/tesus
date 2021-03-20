@@ -1,6 +1,6 @@
 <?php 
 
-$db_handle = pg_connect("host=localhost dbname=postgres user=postgres password=postgres")
+$db_handle = pg_connect("host=localhost dbname=postgres user=postgres password=postgres");
 
 if ($db_handle) {
     echo "Connectyion Attempt successfully";
