@@ -262,6 +262,11 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 #cards .container .row .cards_column .card__img img {
     width: 250px;
     transition: all .3s ease-in-out;
+    z-index: -1;
+}
+
+#cards .container .row .cards_column h1 {
+    z-index: 11;
 }
 
 #cards .container .row .cards_column .btn {
@@ -270,6 +275,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     background: transparent;
     border: 3px solid #007bff;
     color: #007bff;
+    z-index: 11;
 }
 
 #cards .container .row .cards_column:hover {
