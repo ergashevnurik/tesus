@@ -5,7 +5,7 @@ $firstName = $_POST['firstName'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 
-// Initialize the database url, username, password
+// Initialize the database url, username, password and database name
 $serverNameLocalhost = "localhost";
 $username = "root";
 $password = "";
