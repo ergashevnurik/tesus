@@ -334,7 +334,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     background-color: #343a40;
     padding: 0px 20px;
     align-items: center;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 30%);
+    /* box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgb(0 0 0 / 30%); */
     border-radius: 10px;
     color: white;
 }
@@ -348,6 +348,10 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+#contacts .container .row .col-md-6 .row .d-flex h5 {
+    color: #7b7d81;
 }
 
 #contacts .container .row .col-md-6 .row .d-flex a {
