@@ -267,7 +267,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 #cards .container .row .cards_column .btn {
     width: 150px;
     transition: all .2s ease-in-out;
-    background: white;
+    background: transparent;
     border: 3px solid #007bff;
     color: #007bff;
 }
