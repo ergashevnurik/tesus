@@ -298,6 +298,54 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 
 
+
+
+/* Number Count Animation Section Styling Goes Here */
+#number {
+    width: 100%;
+}
+
+#number .container {
+    padding: 20px;
+}
+
+#number .container h1 {
+    
+}
+
+#number .container .row .col-md-4 .card .counter-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+#number .container .row .col-md-4 .card {
+    border: none;
+    text-align: center;
+    outline: none;
+    color: #7b7d81;
+}
+
+#number .container .row .col-md-4 .card img {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#number .container .row .col-md-4 .card h3 {
+    font-size: 0.9rem;
+}
+/* Number Count Animation Section Styling Ends Here */
+
+
+
+
+
+
+
 /* Constants Styling Goes Here */
 
 .card {
