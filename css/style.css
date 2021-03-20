@@ -304,6 +304,42 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 
 
+/* Service Section Styling Goes Here */
+#services {
+    width: 100%;
+}
+
+#services .container {
+    padding: 15px;
+}
+
+#services .container .row .col-md-6 {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#services .container .row .col-md-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+#services .container .row .col-md-6 h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+#services .container .row .col-md-6 .btn {
+    border: none;
+    outline: none;
+    color: white;
+    background: #007bff;
+    font-weight: 800;
+    box-shadow: 0 4px 4px #007bff, 0 4px 16px #007bff;
+}
+/* Service Section Styling Ends Here */
+
 
 
 
