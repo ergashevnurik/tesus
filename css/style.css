@@ -64,12 +64,10 @@ nav .container .navbar-toggler .bi {
 }
 
 nav .navbar-brand {
-    font-weight: 800;
-    font-size: 2rem;
 }
 
 nav .navbar-brand img {
-    width: 25%;
+    width: 35%;
 }
 
 nav .container .collapse ul li a {
