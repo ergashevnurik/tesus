@@ -134,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row hero__bottom" style="flex-wrap: nowrap!important;">
+                    <div class="row hero__bottom">
                         <div class="col-md-3">
                             <img src="./img/cyber-security.png" alt="Security">
                             <h6>Надежность</h6>
