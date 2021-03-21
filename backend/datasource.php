@@ -1,7 +1,7 @@
 <?php
 
 
-$con = mysqli_connect('localhost', 'root', '', 'contact-request');
+$con = mysqli_connect('localhost', 'root', '', 'tesus');
 
 if ($con->connect_error) {
     die("Connection Failure: " . $con->connect_error);
@@ -19,7 +19,7 @@ if ($con->connect_error) {
     $stmt->close();
 }
 $con->close();
-header("Location: ../index.html");
+header("Location: ../index.php");
 
 
 
