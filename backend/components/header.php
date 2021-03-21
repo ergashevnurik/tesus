@@ -4,7 +4,7 @@
 echo '<nav class="navbar navbar-expand-md fixed-top">
 <div class="container">
     <!-- Brand -->
-    <a class="navbar-brand" href="#" style="width: 255px">
+    <a class="navbar-brand" href="#" style="width: 200px">
         <img src="./img/TESUS_KP.png" alt="">
     </a>
 
