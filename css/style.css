@@ -272,7 +272,12 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     bottom: 0;
     right: 0;
     transition: all .3s ease-in-out;
-    opacity: 0.3;
+}
+
+@media screen and (max-width: 900px) {
+    #cards .container .row .cards_column .card__img {
+        opacity: 0.3;
+    }
 }
 
 #cards .container .row .cards_column .card__img img {
