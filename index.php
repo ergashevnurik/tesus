@@ -163,7 +163,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="https://lh3.googleusercontent.com/proxy/lyX3EJmoyqxyudJhZrjbM07wDCAt2U_zZO4KQ6ozky42BngnPFM1LuFOxWcqQCS_mMlR_zTU_uZt02JhVGvoNSmwD1Aaah7qQEGhvwv1Fa9JE9f2JUlklrEdcTo" alt="Camera">
+                            <img src="./img/1.png" alt="Camera">
                         </div>
                         <div class="col-md-6">
                             <div>
