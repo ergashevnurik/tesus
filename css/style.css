@@ -418,6 +418,9 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .h1, h1 {
+        font-size: 2rem;
+    }
 }
 
 /* Constants Styling Goes Here */
