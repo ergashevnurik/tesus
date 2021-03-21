@@ -348,18 +348,18 @@
                             <form action="./backend/datasource.php" method="POST">
                                 <div class="form-group">
                                     <label for="">Имя</label>
-                                    <input type="text" placeholder="Введите свое имя..." name="firstName" class="form-control" />
+                                    <input type="text" placeholder="Введите свое имя..." name="firstName" class="form-control first-name" />
                                 </div>
                                 <div class="form-group">
                                     <label for="">Телефон</label>
-                                    <input type="text" placeholder="Введите свой телефон..." name="phone" class="form-control" />
+                                    <input type="text" placeholder="Введите свой телефон..." name="phone" class="form-control contact-number" />
                                 </div>
                                 <div class="form-group">
                                     <label for="">Адрес электронной почты</label>
-                                    <input type="text" placeholder="Введите ваш адрес электронной почты..." name="email" class="form-control" />
+                                    <input type="text" placeholder="Введите ваш адрес электронной почты..." name="email" class="form-control email-address" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="button" class="form-control btn btn-dark" value="Представлять на рассмотрение">
+                                    <input type="button" class="form-control btn btn-dark submit-btn" value="Представлять на рассмотрение">
                                 </div>
                             </form>
                         </div>
@@ -394,6 +394,12 @@
         <script src="./js/countNumberOnScroll.js"></script>
         <!-- Script Count Number on Scroll JS Ends Here -->
 
+
+
+
+        <!-- Telegram bot JS Goes here -->
+        <script src="./js/telegramBotContactsRequest.js"></script> 
+        <!-- Telegram bot JS Ends here -->
 
     </body>
 </html>
