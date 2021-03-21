@@ -135,25 +135,21 @@
                         </div>
                     </div>
                     <div class="row hero__bottom">
-                        <div>
-                            <div class="col-md-3">
-                                <img src="./img/cyber-security.png" alt="Security">
-                                <h6>Надежность</h6>
-                            </div>
-                            <div class="col-md-3">
-                                <img src="./img/security-camera.png" alt="Camera">
-                                <h6>Безопасность</h6>
-                            </div>
+                        <div class="col-md-3">
+                            <img src="./img/cyber-security.png" alt="Security">
+                            <h6>Надежность</h6>
                         </div>
-                        <div>
-                            <div class="col-md-3">
-                                <img src="./img/secure.png" alt="Protection">
-                                <h6>Полная защита</h6>
-                            </div>
-                            <div class="col-md-3">
-                                <img src="./img/database.png" alt="Database">
-                                <h6>Большая память</h6>
-                            </div>
+                        <div class="col-md-3">
+                            <img src="./img/security-camera.png" alt="Camera">
+                            <h6>Безопасность</h6>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./img/secure.png" alt="Protection">
+                            <h6>Полная защита</h6>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./img/database.png" alt="Database">
+                            <h6>Большая память</h6>
                         </div>
                     </div>
                 </div>
