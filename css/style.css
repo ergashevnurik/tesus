@@ -219,6 +219,13 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     font-weight: 800;
 }
 
+@media screen and (max-width: 768px) {
+    #about .container .row .col-md-6 h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+}
+
 #about .container .row .col-md-6 .btn {
     border: none;
     outline: none;
