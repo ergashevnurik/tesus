@@ -1,7 +1,7 @@
 <?php
 
 
-$con = mysqli_connect('localhost', 'root', '', 'contact-request');
+$con = mysqli_connect('localhost', 'root', '', 'tesus');
 
 if ($con->connect_error) {
     die("Connection Failure: " . $con->connect_error);
@@ -11,7 +11,7 @@ if ($con->connect_error) {
     $phone = $_POST['phone'];
     $email = $_POST['email'];
 
-    $sqlInsertToTable = "insert into registration(firstName, phone, email) values(?, ?, ?)";
+    $sqlInsertToTable = "insert into contact_request(firstName, phone, email) values(?, ?, ?)";
     $stmt = $con->prepare($sqlInsertToTable);
     $stmt->bind_param("sss", $firstName, $phone, $email);
     $stmt->execute();
@@ -19,7 +19,7 @@ if ($con->connect_error) {
     $stmt->close();
 }
 $con->close();
-header("Location: ../index.php");
+header("Location: ../../index.php");
 
 
 

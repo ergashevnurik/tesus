@@ -345,7 +345,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 forms">
-                            <form action="./backend/datasource.php" method="POST">
+                            <form action="./backend/database/datasource.php" method="POST">
                                 <div class="form-group">
                                     <label for="">Имя</label>
                                     <input type="text" placeholder="Введите свое имя..." name="firstName" class="form-control first-name" />
