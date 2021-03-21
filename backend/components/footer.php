@@ -76,10 +76,10 @@ echo '
                         <div class="col-md-3">
                             <div>
                                 <h3>Подписаться</h3>
-                                <form action="./backend/database/datasourceSubscribe.php" method="post">
+                                <form action="./backend/services/MailServices.php" method="post">
                                     <div class="form-group d-flex">
-                                        <input type="text" class="form-control" name="subscriber" placeholder="Подпишись..." />
-                                        <button type="submit" class="btn btn-dark">
+                                        <input type="text" class="form-control" name="email" placeholder="Подпишись..." />
+                                        <button type="submit" class="btn btn-dark" name="submit-form">
                                             <i class="bi bi-envelope"></i>
                                         </button>
                                     </div>
