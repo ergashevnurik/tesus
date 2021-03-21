@@ -359,7 +359,7 @@
                                     <input type="text" placeholder="Введите ваш адрес электронной почты..." name="email" class="form-control email-address" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="button" class="form-control btn btn-dark submit-btn" value="Представлять на рассмотрение">
+                                    <input type="submit" class="form-control btn btn-dark submit-btn" value="Представлять на рассмотрение">
                                 </div>
                             </form>
                         </div>

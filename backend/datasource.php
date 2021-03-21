@@ -1,6 +1,32 @@
-<?php 
+<?php
 
-// Initialize the variables for inserting to the DataBase
+
+$con = mysqli_connect('localhost', 'root', '', 'contact-request');
+
+if ($con->connect_error) {
+    die("Connection Failure: " . $con->connect_error);
+} else {
+
+    $firstName = $_POST['firstName'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+
+    $sqlInsertToTable = "insert into registration(firstName, phone, email) values(?, ?, ?)";
+    $stmt = $con->prepare($sqlInsertToTable);
+    $stmt->bind_param("sss", $firstName, $phone, $email);
+    $stmt->execute();
+    echo "Was Successfully Inserted...";
+    $stmt->close();
+}
+$con->close();
+header("Location: ../index.html");
+
+
+
+
+
+
+/*// Initialize the variables for inserting to the DataBase
 $firstName = $_POST['firstName'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
@@ -32,5 +58,5 @@ if ($conn->connect_error) {
 }
 
 $conn->close();
-
+*/
 ?>
