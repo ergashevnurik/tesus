@@ -137,9 +137,9 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     #hero .container .row.hero__bottom {
-        flex-wrap: wrap;
+        flex-wrap: wrap!important;
     }
 }
 
