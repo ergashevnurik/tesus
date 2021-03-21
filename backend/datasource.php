@@ -1,7 +1,7 @@
 <?php
 
 
-$con = mysqli_connect('localhost', 'root', '', 'tesus');
+$con = mysqli_connect('localhost', 'root', '', 'contact-request');
 
 if ($con->connect_error) {
     die("Connection Failure: " . $con->connect_error);
