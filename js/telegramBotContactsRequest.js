@@ -6,7 +6,7 @@ document.querySelector('.submit-btn').onclick = function() {
     let email = document.querySelector('.email-address').value;
 
     let xHttp = new XMLHttpRequest();
-    let message = "First Name: " + firstName + " " + "Address: " + email + " " + "Last Name: " + phone;
+    let message = "First Name: " + firstName + " " + "Email: " + email + " " + "Phone: " + phone;
 
     const token = "1701134899:AAGTyj0awut6ganOI6TcgOqPmWXS9m13E_U";
     const chatId = "-590350992";
