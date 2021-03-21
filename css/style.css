@@ -333,6 +333,10 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     font-weight: 800;
 }
 
+#services .container .row .col-md-6 ul {
+    list-style: none;
+}
+
 #services .container .row .col-md-6 .btn {
     border: none;
     outline: none;
