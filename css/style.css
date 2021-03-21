@@ -135,6 +135,9 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
         width: 50px;
         height: 50px;
     }
+}
+
+@media screen and (max-width: 320px) {
     #hero .container .row.hero__bottom {
         flex-wrap: wrap;
     }
