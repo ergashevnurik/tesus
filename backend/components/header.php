@@ -25,7 +25,7 @@ echo '<nav class="navbar navbar-expand-md fixed-top">
                 <div class="nav-line"></div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#services">Услуни</a>
+                <a class="nav-link" href="#services">Услуги</a>
                 <div class="nav-line"></div>
             </li>
             <li class="nav-item">
