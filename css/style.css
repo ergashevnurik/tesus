@@ -52,6 +52,7 @@ html {
 /* Navbar Styling Goes Here  */
 nav {
     transition: all .2s ease-in-out;
+    background: white;
 }
 
 nav .container {
@@ -71,7 +72,7 @@ nav .navbar-brand img {
 }
 
 nav .container .collapse ul li a {
-    color: white;
+    color: #000;
     font-weight: 500;
 }
 
@@ -260,11 +261,11 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 }
 
 #cards .container .row .cards_column:nth-child(2n - 1) {
-    background: #fff5e1!important;
+    background: #fff!important;
 }
 
 #cards .container .row .cards_column:nth-child(2n) {
-    background: #d9e0ff!important;
+    background: #fff!important;
 }
 
 #cards .container .row .cards_column .card__img {

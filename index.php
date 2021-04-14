@@ -57,7 +57,7 @@
 
 
             <!-- Hero Section Goes Here -->
-            <section id="hero" class="bg-dark">
+            <section id="hero" style="background: url(./img/bg.png);background-position: center;background-repeat: no-repeat;background-size: cover;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
