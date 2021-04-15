@@ -52,7 +52,6 @@ html {
 /* Navbar Styling Goes Here  */
 nav {
     transition: all .2s ease-in-out;
-    background: white;
 }
 
 nav .container {
@@ -72,7 +71,6 @@ nav .navbar-brand img {
 }
 
 nav .container .collapse ul li a {
-    color: #000;
     font-weight: 500;
 }
 
@@ -251,7 +249,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 
 #cards .container .row .cards_column {
     position: relative;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 10%), 0 20px 20px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 25px rgb(0 0 0 / 5%);
     border-radius: 15px;
     border: 0;
     transition: all .3s ease-in-out;
