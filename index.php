@@ -186,8 +186,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Установка камер видеонаблюдения (IP, HD, AV)</h1>
-                                <a href="https://t.me/tesusgroup" class="btn" target="_blank">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Установка камер <b>видеонаблюдения</b> (IP, HD, AV)</h1>
+                                    <a href="https://t.me/tesusgroup" class="btn" target="_blank">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="https://pngimg.com/uploads/web_camera/web_camera_PNG7986.png" alt="">
                                 </div>
@@ -195,8 +197,10 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Установка домофонов</h1>
-                                <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Установка <b>домофонов</b></h1>
+                                    <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="https://монтажсиб.рф/upload/iblock/273/27332158ec1fda7e0a8aa874acc9c80d.png" alt="">
                                 </div>
@@ -206,8 +210,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Установка кодовых панелей</h1>
-                                <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Установка кодовых <b>панелей</b></h1>
+                                    <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="http://www.drdoors-msc.ru/image/icon-domofon/%D0%B1%D0%B8%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B0%20ST-SC110EKF.png" alt="">
                                 </div>
@@ -215,8 +221,10 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Установка шлагбаумов</h1>
-                                <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Установка <b>шлагбаумов</b></h1>
+                                    <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="https://www.шлагбаум-москва.рф/local/templates/shlagbaum/img/presentation-old.png" alt="">
                                 </div>
@@ -226,8 +234,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Установка звуковых устройств</h1>
-                                <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Установка <b>звуковых</b> устройств</h1>
+                                    <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="https://www.logitech.com/content/dam/logitech/en/products/home-security-cameras/circle-view/gallery/circleview-gallery-1.png" alt="">
                                 </div>
@@ -235,8 +245,10 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card bg-light cards_column">
-                                <h1>Организация локальных сетей</h1>
-                                <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                <div class="card-head">
+                                    <h1>Организация локальных сетей</h1>
+                                    <a href="https://t.me/tesusgroup" target="_blank" class="btn">Заказать Услугу</a>
+                                </div>
                                 <div class="card__img">
                                     <img src="https://kz.all.biz/img/kz/service_catalog/227900.png" alt="">
                                 </div>
