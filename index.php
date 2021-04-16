@@ -52,12 +52,77 @@
 
             <!-- Navbar Goes Here -->
             <?php include './backend/components/header.php'; ?>
+
+            <header style="border-bottom: 10px solid #009de0">
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="logo">
+                            <img src="./img/tesus.png" alt="logo" style="width:200px">
+                        </div>
+                        <div class="right-side ml-auto">
+                            <h1 style="font-size: 25px; color: #004291" align="right">ПРОФЕССИОНАЛЬНОЕ <b>ВИДЕОНАБЛЮДЕНИE</b> </h1>
+                            <div>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/tesusgroup" target="_blank">
+                                                <i class="bi bi-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://t.me/tesusgroup" target="_blank">
+                                                <i class="bi bi-telegram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/tesusgroup/" target="_blank">
+                                                <i class="bi bi-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="bi bi-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>|</li>
+                                        <li>TesusGroup</li>
+                                    </ul>
+                                    
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a class="nav-link" href="#hero">Главная Страница</a>
+                                        <div class="nav-line"></div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#about">О Нас</a>
+                                        <div class="nav-line"></div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#services">Услуги</a>
+                                        <div class="nav-line"></div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#blog">Блог</a>
+                                        <div class="nav-line"></div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#contacts">Контакты</a>
+                                        <div class="nav-line"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
             <!-- Navbar Ends Here -->
 
 
 
             <!-- Hero Section Goes Here -->
-            <section id="hero" style="background: url(./img/bg.png);background-position: center;background-repeat: no-repeat;background-size: cover;">
+            <section id="hero" style="background: url(./img/bg.png);background-position: center;background-repeat: no-repeat;background-size: cover;border-bottom: 10px solid #009de0">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

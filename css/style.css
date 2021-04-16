@@ -10,6 +10,62 @@ html {
 }
 
 
+/* Header Styling Goes Here */
+header .container .row .right-side ul, header .container .row .right-side .navbar-nav {
+    display: flex;
+    list-style: none;
+    float: right
+}
+
+header .container .row .right-side ul li {
+    padding: 10px;
+    color: #004291;
+    font-size: 24px;
+}
+
+header .container .row .right-side ul li a {
+    text-decoration: none;
+    color: #004291;
+}
+
+header .container .row .right-side .navbar-nav {
+
+}
+
+header .container .row .right-side ul .nav-link.active {
+    color: #007bff;
+}
+
+header .container .row .right-side ul .nav-link {
+    font-size: 18px;
+}
+
+header .container .row .right-side .navbar-nav .nav-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #007bff;
+    transition: all .2s ease-in-out;
+}
+
+nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+}
+/* Header Styling Ends Here */
+
+
 
 
 /* Social Media on the right Side Goes Here */
@@ -50,6 +106,11 @@ html {
 
 
 /* Navbar Styling Goes Here  */
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: none!important;
+    }
+}
 nav {
     transition: all .2s ease-in-out;
 }
