@@ -70,15 +70,15 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="./img/80.png" alt="First slide" style="width: 350px;height: 500px;">
+                                            </div>
                                             <div class="col-md-6 carousel-caption-text">
                                                 <div class="text">
                                                     <span>TESUS Web Cameras</span>
                                                     <h1>Низкие цены на установку</h1>
                                                     <p>Мы устанавливаем оборудование по одним из самых низких цен в городе. Дешевле бывает только без гарантии.</p>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <img class="d-block w-100" src="https://pngimg.com/uploads/web_camera/web_camera_PNG7983.png" alt="First slide">
                                             </div>
                                         </div>
                                     </div>
@@ -92,7 +92,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img class="d-block w-100" src="https://pngimg.com/uploads/web_camera/web_camera_PNG7986.png" alt="First slide">
+                                                <img src="https://pngimg.com/uploads/web_camera/web_camera_PNG7986.png" alt="First slide">
                                             </div>
                                         </div>
                                     </div>
@@ -106,7 +106,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <img class="d-block w-100" src="https://images.ctfassets.net/n58cc9djl3c5/4xX13Ony31yG0Pmtp9p4a1/3c05bb639f1a6219b25d4b1f380f227f/equipment-adc-outdoor-camera-500.png" alt="First slide">
+                                                <img src="https://images.ctfassets.net/n58cc9djl3c5/4xX13Ony31yG0Pmtp9p4a1/3c05bb639f1a6219b25d4b1f380f227f/equipment-adc-outdoor-camera-500.png" alt="First slide">
                                             </div>
                                         </div>
                                     </div>
@@ -163,10 +163,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="./img/1.png" alt="Camera">
+                            <img src="./img/about.png" alt="Camera">
                         </div>
                         <div class="col-md-6">
-                            <div>
+                            <div class="p-5">
                                 <h1>О компании</h1>
                                 <p>TESUS - это молодая, развивающаяся компания
                                     специализирующаяся в сфере систем безопасности. Учитывая актуальность создания систем безопасности в современных офисах и предприятиях, Компания TESUS предлагает вам установку профессионального оборудования по видеонаблюдению. </p>

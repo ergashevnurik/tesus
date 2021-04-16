@@ -175,6 +175,12 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     color: white;
 }
 
+#hero .container .row .col-md-12 .carousel-inner .carousel-item .col-md-6 {
+    justify-content: center; 
+    align-items: center;
+    display: flex
+}
+
 .carousel-control-prev .bi-arrow-left-circle, .carousel-control-next .bi-arrow-right-circle {
     color: #007bff;
     font-size: 2rem;
@@ -185,6 +191,10 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     #hero .container .row .col-md-12 .carousel-inner .carousel-item .carousel-caption-text {
         order: 2;
         height: 350px;
+    }
+    #hero .container .row .col-md-12 .carousel-inner .carousel-item img {
+        width: 250px!important;
+        height: unset!important;
     }
 }
 /* Hero Styling Ends Here */
