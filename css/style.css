@@ -335,7 +335,13 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
 }
 
 #cards .container .row .cards_column .card-head {
-    width: 370px;;
+    width: 370px;
+}
+
+@media screen and (max-width: 768px) {
+    #cards .container .row .cards_column .card-head {
+        width: 100%;
+    }
 }
 
 #cards .container .row .cards_column .card__img {
