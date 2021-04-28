@@ -708,7 +708,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: #313133;
+    color: #fff;
     background: #4FD1C5;
   background: linear-gradient(90deg, #009de0 0%, #009de0 100%);
     border: none;
@@ -722,7 +722,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
     }
   
   .button::before {
-  content: '';
+    content: '';
     border-radius: 50%;
     border: 6px solid #009de0;
     box-shadow: 0 0 60px rgba(0,255,203,.64);
@@ -735,7 +735,7 @@ nav .container .collapse .navbar-nav .nav-item:hover .nav-line {
   }
   
   .button:hover, .button:focus {
-    color: #313133;
+    color: #fff;
     transform: translateY(-6px);
   }
   
