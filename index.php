@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <!-- Icons Bootstrap 4 Ends Here -->
 
+        <script src="//code.jivosite.com/widget/KaL1WopeFF" async></script>
+
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
