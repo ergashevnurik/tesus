@@ -452,6 +452,14 @@
             <!-- Footer Ends Here -->
 
 
+            <!-- Phone Call Button Goes here -->
+            <div class="wrap">
+                <a class="button" href="tel:+998900030009">
+                    <i class="bi bi-telephone"></i>
+                </a>
+            </div>
+            <!-- Phone Call Button Ends here -->
+
         </main>
 
         <!-- Bootstrap 4 JS Goes here -->
